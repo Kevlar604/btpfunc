@@ -17,7 +17,7 @@ cb2,cr2=chroma values of P frame
 
 cb3,cr3=chroma values of I frame
 
-for example clip=ConditionalDeband(clip,y1,y2,y3,cb1,cb2,cb3,cr1,cr2,cr3)
+for example clip=ConditionalDeband(clip,64,32,20,32,0,0,32,0,0)
 
 
 
