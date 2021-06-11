@@ -1,7 +1,7 @@
 # btpfunc
 A collection of vapoursynth functions. More functions will be added later. 
 Currently the script does conditional debanding.
-Syntax **clip=ConditionalDeband(clip,y1,y2,y3,cb1,cb2,cb3,cr1,cr2,cr3)**
+Syntax **clip=ConditionalDeband(clip,y1,y2,y3,cb1,cb2,cb3,cr1,cr2,cr3,gy1,gy2,gy3,gc1,gc2,gc3,dynamic_grain)**
 
 What it does is conditional debanding based of Frametype B,P,I
 
@@ -17,7 +17,21 @@ cb2,cr2=chroma values of P frame
 
 cb3,cr3=chroma values of I frame
 
-for example clip=ConditionalDeband(clip,64,32,20,32,0,0,32,0,0)
+gy1=grain to be added to the luma plain of B frame
+
+gy2=grain to be added to the luma plain of P frame
+
+gy3=grain to be added to the luma plain of I frame
+
+gc1=grain to be added to the chroma plain of B frame
+
+gc2=grain to be added to the chroma plain of P frame
+
+gc3=grain to be added to the chroma plain of I frame
+
+bool dynamic_grain: If true grains aqdded will be dynamic else if false it will be static
+
+Usage example clip=ConditionalDeband(clip,64,32,20,32,0,0,32,0,0,0,0,0,0,0,0,True)
 
 
 
