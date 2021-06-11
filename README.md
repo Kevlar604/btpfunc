@@ -29,7 +29,7 @@ gc2=grain to be added to the chroma plain of P frame
 
 gc3=grain to be added to the chroma plain of I frame
 
-bool dynamic_grain: If true grains aqdded will be dynamic else if false it will be static
+bool dynamic_grain: If true grains added will be dynamic else if false it will be static
 
 Usage example clip=ConditionalDeband(clip,64,32,20,32,0,0,32,0,0,0,0,0,0,0,0,True)
 
