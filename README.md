@@ -46,4 +46,6 @@ Usage Example
 
 ## HableTonemap
 Script to replicate MadVR's habble tonemap targetted at 200 nits
-**Syntax clip=btpfunc.HanleTonemap(clip, source_peak=1200, ldr_nits=100, tFormat=vs.YUV420P8, tMatrix="709", tRange="limited", color_loc="center")**
+**Syntax 
+
+`clip=btpfunc.HanleTonemap(clip, source_peak=1200, ldr_nits=100, tFormat=vs.YUV420P8, tMatrix="709", tRange="limited", color_loc="center")`**
