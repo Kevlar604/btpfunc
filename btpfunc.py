@@ -21,7 +21,7 @@ def ConditionalDeband(clip,y1=0,y2=0,y3=0,cr1=0,cr2=0,cr3=0,cb1=0,cb2=0,cb3=0,gy
 
 
 
-def FrameInfo(n, f, clip, frame_num=True, frame_type=True, frame_format=True, frame_resol=True, frame_fps=True, frame_time=False, frame_primaries=False, frame_matrix=False, frame_transfer=False, frame_chromaloc=False, frame_colorrange=False, frame_interlaced=False, frame_sar=False, frame_fullformat=False, text=None, color='0000FFFF', size=20, numpad=7, top=10, left=10):
+def FrameInfo(n, f, clip, frame_num=True, frame_type=True, frame_format=True, frame_resol=True, frame_fps=True, frame_time=False, frame_primaries=False, frame_matrix=False, frame_transfer=False, frame_chromaloc=False, frame_colorrange=False, frame_interlaced=False, frame_sar=False, frame_fullformat=False, text=None, color='0000FF00', size=20, numpad=7, top=10, left=10):
     # NOTE: color is in format AABBGGRR
     
     lines = []
@@ -179,7 +179,7 @@ def FrameInfo(n, f, clip, frame_num=True, frame_type=True, frame_format=True, fr
         '\n'.join(lines),
         start=n,
         end=n + 1,
-        style=f'sans-serif,{size},&H{color},&H00000000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,{numpad},{left},10,{top},1'
+        style=f'comic-sans,{size},&H{color},&H00000000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,{numpad},{left},10,{top},1'
     )
 
 def FFInfo(clip, **kwargs):
