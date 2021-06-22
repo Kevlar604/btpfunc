@@ -37,7 +37,9 @@ Usage example clip=ConditionalDeband(clip,64,32,20,32,0,0,32,0,0,0,0,0,0,0,0,Tru
 ## FFInfo
 
 Shows general information about the current frame.
+ 
+**syntax clip = btpfunc.FFInfo(clip, text='Flip da script', frame_num=False, frame_type=False, frame_format=False, frame_resol=False, frame_fps=False, frame_time=False, frame_primaries=False, frame_matrix=False, frame_transfer=False, frame_chromaloc=False, frame_interlaced=False, frame_sar=False, frame_fullformat=False, color='0000FFFF', size=20, top=8)** 
 
 Example 
-**clip = btpfunc.FFInfo(clip, text='Flip da script', frame_num=False, frame_type=False, frame_format=False, frame_resol=False, frame_fps=False, frame_time=False, frame_primaries=False, frame_matrix=False, frame_transfer=False, frame_chromaloc=False, frame_interlaced=False, frame_sar=False, frame_fullformat=False, color='0000FFFF', size=20, top=8)
+clip=btpfunc.FFInfo(b, text='Source', frame_num=True, frame_type=True, frame_time=True)
 
