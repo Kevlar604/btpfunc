@@ -44,6 +44,6 @@ Shows general information about the current frame.
 Usage Example
 `clip=btpfunc.FFInfo(clip, text='Source', frame_num=True, frame_type=True, frame_time=True)`
 
-## hablehdr10tosdr
+## HableTonemap
 Script to replicate MadVR's habble tonemap targetted at 200 nits
-**Syntax clip=btpfunc.hablehdr10tosdr(clip, source_peak=1200, ldr_nits=100, tFormat=vs.YUV420P8, tMatrix="709", tRange="limited", color_loc="center")**
+**Syntax clip=btpfunc.HanleTonemap(clip, source_peak=1200, ldr_nits=100, tFormat=vs.YUV420P8, tMatrix="709", tRange="limited", color_loc="center")**
