@@ -42,5 +42,5 @@ Shows general information about the current frame.
 
 Example 
 
-clip=btpfunc.FFInfo(b, text='Source', frame_num=True, frame_type=True, frame_time=True)
+clip=btpfunc.FFInfo(clip, text='Source', frame_num=True, frame_type=True, frame_time=True)
 
