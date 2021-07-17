@@ -39,7 +39,8 @@ Usage example
 
 Shows general information about the current frame.
  
-**syntax clip = btpfunc.FFInfo(clip, text='Text', frame_num=False, frame_type=False, frame_format=False, frame_resol=False, frame_fps=False, frame_time=False, frame_primaries=False, frame_matrix=False, frame_transfer=False, frame_chromaloc=False, frame_interlaced=False, frame_sar=False, frame_fullformat=False, color='0000FFFF', size=20, top=8)** 
+syntax 
+`clip = btpfunc.FFInfo(clip, text='Text', frame_num=False, frame_type=False, frame_format=False, frame_resol=False, frame_fps=False, frame_time=False, frame_primaries=False, frame_matrix=False, frame_transfer=False, frame_chromaloc=False, frame_interlaced=False, frame_sar=False, frame_fullformat=False, color='0000FFFF', size=20, top=8)`
 
 Usage Example
 `clip=btpfunc.FFInfo(clip, text='Source', frame_num=True, frame_type=True, frame_time=True,color='0000FF00')`
